@@ -1,0 +1,225 @@
+:root {
+    --background-image: url(https://files.catbox.moe/syp08n.jpg);
+    --friends-icon: url(https://files.catbox.moe/ici7q4.gif);
+    --main-transparency: rgba(0, 0, 0, 0.76);
+    --unread-server-animation: rainbow;
+    --hover-list-bg-color: rgba(255, 255, 255, .15);
+    --border-lines-color: hsla(0,0%,100%,.1);
+    --font-size: 16px;
+    --selected-text-voice-color: #f6f6f7;
+    --channel-hover-text-color: rgba(255, 255, 255, 0.75);
+    --unread-text-color: #dcddde;
+    --user-popout-background: rbga(255, 255, 255, 1);
+    --doki-background-secondary:rgba(0, 0, 0, 0.4);
+    --doki-background-tertiary:rgba(0, 0, 0, 0.6);
+    --doki-background-secondary-alt:rgba(0, 0, 0, 0.5);
+    --doki-channeltextarea-background: rgba(0, 0, 0, 0.5);
+}
+
+.tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn {
+    background: var(--friends-icon) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 100%;
+}
+.tutorialContainer-1v44GL .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn svg {
+    opacity: 0;
+}
+.theme-dark {
+    .appMount-3lHmkl  {
+        /** Background*/
+        background: var(--background-image) !important;
+        background-color: transparent !important;
+        background-size: cover !important;
+        /** Titlebar*/    
+        .typeWindows-1za-n7 {
+            height: 23px;
+            margin-top: 0px;
+            background: var(--main-transparency);
+        }
+        /** User area*/
+        .app-2rEoOp {
+            background: var(--main-transparency);
+            .bg-h5JY_x { 
+                background:transparent;
+            }
+            /** Servers bar*/
+            .wrapper-3NnKdC {
+                background:transparent;
+                .scroller-1Bvpku {
+                    background:transparent;
+                    .tutorialContainer-2sGCg9 {
+                        .childWrapper-anI2G9 {
+                            background: var(--friends-icon) !important;
+                            background-repeat: no-repeat !important;
+                            background-size: 100% !important;
+                            border-radius: 100%;
+                            svg {
+                                opacity:0;
+                            }
+                        }
+                    }
+    
+                    .wrapper-3Njo_c {
+                        --background-secondary:rgba(0, 0, 0, 0.6);
+                    }
+                }
+            }
+            /** Sidebar*/
+            .sidebar-2K8pFh {
+                background-color: rgba(0, 0, 0, .6);
+                .container-3w7J-x {
+                    background: transparent;
+                }
+                .panels-j1Uci_ {
+                    background:var(--main-transparency);
+                }
+                .privateChannels-1nO12o {
+                    background:transparent;
+                    .scroller-1JbKMe {
+                        background:transparent;
+                    }
+                }
+            }
+            /** Friends area*/
+            .container-1D34oG {
+                background: transparent;
+                .themed-ANHk51 {
+                    background:transparent;
+                }
+                .nowPlayingColumn-2sl4cE {
+                    background:transparent;
+                    .container-lRFx4q {
+                        background:transparent;
+                        .wrapper-3D2qGf {
+                            background:var(--doki-background-secondary);
+                            .inset-3sAvek {
+                                background:transparent;
+                                .section-2gLsgF {
+                                    border: 1px solid #2f3136;
+                                    background-color: rgba(255, 255, 255, 0.04);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            /** Chat area*/
+            .chat-3bRxxu {
+                background:transparent;
+                .themed-ANHk51 {
+                    background:transparent;
+                    .searchBar-3dMhjb {
+                        --background-tertiary:var(--doki-background-tertiary);
+                    }
+                    .children-19S4PO {
+                        &::after {
+                            background:none;
+                        }
+                    }
+                    
+                }
+                /**Jump to present and new message bar v1 */
+                .barBase-1c2Rfb {
+                    top: 1.6rem;
+                    bottom:auto;
+                    padding-bottom:0;
+                }
+                .newMessagesBar-265mhP {
+                    width: 50%;
+                    left: auto;
+                    right: 12px;
+                    border-radius: 0.7rem 0 0 0.7rem;
+                }
+                .jumpToPresentBar-G1R9s6 {
+                    width: 45%;
+                    right: auto;
+                    left: 12px;
+                    border-radius:0 0.7rem 0.7rem 0;
+                }
+                /** Unloaded messages*/
+                .wrapper-3vR61M {
+                    background:transparent;
+                    .wrapper-1F5TKx {
+                        background:transparent;
+                    }
+                }
+                /** Date separators*/
+                .content-1o0f9g {
+                    background:transparent
+                }
+                /** Message bar*/
+                .form-2fGMdU {
+                    --background-primary:transparent;
+                    --background-secondary:rgba(0, 0, 0, 0.7);
+                    .replyBar-1YLQ2F {
+                        background:transparent;
+                    }
+                    &:before {
+                        background: transparent !important;
+                    }
+                    .scrollableContainer-2NUZem {
+                        background-color: #161719;
+                    }
+                }
+                /** Members list*/
+                .members-1998pB, .members-1998pB div {
+                    background:transparent;
+                }
+                /** Search*/
+                .searchResultsWrap-3-pOjs {
+                    --background-secondary:var(--doki-background-secondary);
+                    .searchHeader-2XoQg7 {
+                        --background-tertiary:var(--doki-background-tertiary);
+                    }
+                    .searchResult-9tQ1uo {
+                        background:rgba(255, 255, 255, 0.03);
+                    }
+                }
+            }
+            /**settings*/
+            .layer-3QrUeG {
+                background:transparent;
+                .standardSidebarView-3F1I7i {
+                    background:transparent;
+                    .sidebarRegionScroller-3MXcoP {
+                        background:transparent;
+                    }
+                    .contentRegion-3nDuYy {
+                        background:transparent;
+                        .contentRegionScroller-26nc1e {
+                            background:transparent;
+                            .accountProfileCard-1XCH88 {
+                                --background-tertiary:var(--doki-background-tertiary);
+                                .avatar-1uQSZT {
+                                    width:87px !important;
+                                    height:87px !important;
+                                    border:none;
+                                }
+                                .background-1QDuV2 {
+                                    background:rgba(255,255,255, 0.03);
+                                    .fieldList-21DyL8 {
+                                        background:transparent;
+                                        .lookFilled-1Gx00P.colorGrey-2DXtkV {
+                                            background:rgba(255,255,255, 0.06);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.container-16j22k {
+    //background:transparent;
+}
+
+.container-16j22k::before {
+    padding: 8px 16px 8px 36px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px"><path d="M0 0h24v24H0z" fill="none"/><path d="M23.64 7c-.45-.34-4.93-4-11.64-4-1.5 0-2.89.19-4.15.48L18.18 13.8 23.64 7zm-6.6 8.22L3.27 1.44 2 2.72l2.05 2.06C1.91 5.76.59 6.82.36 7l11.63 14.49.01.01.01-.01 3.9-4.86 3.32 3.32 1.27-1.27-3.46-3.46z"/></svg>') 16px 8px / 16px 16px no-repeat, #f04747;
+}
